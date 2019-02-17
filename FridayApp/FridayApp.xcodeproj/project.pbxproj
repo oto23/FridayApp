@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2571161A2219F4DD005E6663 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257116192219F4DD005E6663 /* LoginViewController.swift */; };
+		2571161C2219F537005E6663 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2571161B2219F537005E6663 /* Podfile */; };
 		5281B5922219B53500281B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281B5912219B53500281B2F /* AppDelegate.swift */; };
 		5281B5942219B53500281B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281B5932219B53500281B2F /* ViewController.swift */; };
 		5281B5972219B53500281B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5281B5952219B53500281B2F /* Main.storyboard */; };
 		5281B59A2219B53500281B2F /* FridayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5281B5982219B53500281B2F /* FridayApp.xcdatamodeld */; };
 		5281B59C2219B53600281B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5281B59B2219B53600281B2F /* Assets.xcassets */; };
 		5281B59F2219B53600281B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5281B59D2219B53600281B2F /* LaunchScreen.storyboard */; };
+		725CC74BAF965A546113F469 /* Pods_FridayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03D0F17FC4583B5E2A1BDE7 /* Pods_FridayApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21B5E0B4AAF11495150A6951 /* Pods-FridayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FridayApp.release.xcconfig"; path = "Target Support Files/Pods-FridayApp/Pods-FridayApp.release.xcconfig"; sourceTree = "<group>"; };
+		257116192219F4DD005E6663 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2571161B2219F537005E6663 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5281B58E2219B53500281B2F /* FridayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5281B5912219B53500281B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5281B5932219B53500281B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		5281B59B2219B53600281B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5281B59E2219B53600281B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5281B5A02219B53600281B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB8C2A3A8B595FD026AF4F9 /* Pods-FridayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FridayApp.debug.xcconfig"; path = "Target Support Files/Pods-FridayApp/Pods-FridayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C03D0F17FC4583B5E2A1BDE7 /* Pods_FridayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FridayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725CC74BAF965A546113F469 /* Pods_FridayApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +49,11 @@
 		5281B5852219B53500281B2F = {
 			isa = PBXGroup;
 			children = (
+				2571161B2219F537005E6663 /* Podfile */,
 				5281B5902219B53500281B2F /* FridayApp */,
 				5281B58F2219B53500281B2F /* Products */,
+				E243CB70D7E7BC4133F712AD /* Pods */,
+				E2E005AA17B51F8B0B913920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +70,7 @@
 			children = (
 				5281B5912219B53500281B2F /* AppDelegate.swift */,
 				5281B5932219B53500281B2F /* ViewController.swift */,
+				257116192219F4DD005E6663 /* LoginViewController.swift */,
 				5281B5952219B53500281B2F /* Main.storyboard */,
 				5281B59B2219B53600281B2F /* Assets.xcassets */,
 				5281B59D2219B53600281B2F /* LaunchScreen.storyboard */,
@@ -67,6 +80,23 @@
 			path = FridayApp;
 			sourceTree = "<group>";
 		};
+		E243CB70D7E7BC4133F712AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8C2A3A8B595FD026AF4F9 /* Pods-FridayApp.debug.xcconfig */,
+				21B5E0B4AAF11495150A6951 /* Pods-FridayApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2E005AA17B51F8B0B913920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03D0F17FC4583B5E2A1BDE7 /* Pods_FridayApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5281B5A32219B53600281B2F /* Build configuration list for PBXNativeTarget "FridayApp" */;
 			buildPhases = (
+				F140CB84DDDF5FBBCEB0FC32 /* [CP] Check Pods Manifest.lock */,
 				5281B58A2219B53500281B2F /* Sources */,
 				5281B58B2219B53500281B2F /* Frameworks */,
 				5281B58C2219B53500281B2F /* Resources */,
+				B4CA040F5B8F4E899078A547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,17 +159,72 @@
 			files = (
 				5281B59F2219B53600281B2F /* LaunchScreen.storyboard in Resources */,
 				5281B59C2219B53600281B2F /* Assets.xcassets in Resources */,
+				2571161C2219F537005E6663 /* Podfile in Resources */,
 				5281B5972219B53500281B2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4CA040F5B8F4E899078A547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FridayApp/Pods-FridayApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFBlurSegue/AFBlurSegue.framework",
+				"${BUILT_PRODUCTS_DIR}/PreviewTransition/PreviewTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/RMPZoomTransitionAnimator/RMPZoomTransitionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFBlurSegue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PreviewTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMPZoomTransitionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FridayApp/Pods-FridayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F140CB84DDDF5FBBCEB0FC32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FridayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5281B58A2219B53500281B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571161A2219F4DD005E6663 /* LoginViewController.swift in Sources */,
 				5281B5942219B53500281B2F /* ViewController.swift in Sources */,
 				5281B59A2219B53500281B2F /* FridayApp.xcdatamodeld in Sources */,
 				5281B5922219B53500281B2F /* AppDelegate.swift in Sources */,
@@ -284,16 +371,18 @@
 		};
 		5281B5A42219B53600281B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB8C2A3A8B595FD026AF4F9 /* Pods-FridayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJGZ765Q49;
 				INFOPLIST_FILE = FridayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.new.FridayApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.new.FridayApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,16 +391,18 @@
 		};
 		5281B5A52219B53600281B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B5E0B4AAF11495150A6951 /* Pods-FridayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJGZ765Q49;
 				INFOPLIST_FILE = FridayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.new.FridayApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Friday.new.FridayApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

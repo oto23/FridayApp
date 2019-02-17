@@ -1,0 +1,15 @@
+target 'FridayApp' do
+
+# platform :ios, '12'
+
+
+use_frameworks!
+
+pod 'AFBlurSegue'
+pod 'SkyFloatingLabelTextField'
+
+pod 'RMPZoomTransitionAnimator'
+
+pod 'PreviewTransition'
+
+end
